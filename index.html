@@ -14,7 +14,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body onload="loadSound()">
+<body">
+<audio src="sound/sound.mp3" id = "my_audion" loop = "loop"></audio>
+    <script type ="text/javascript">
+        window.onload = function () {
+            document.getElementById("my_audion").play();
+        }
+    </script>
     <div class="wrapper">
         <!-- Preloader -->
         <div id="preloader">
@@ -45,12 +51,7 @@
     <script src="./config.js"></script>
     <script src="./js/main.js"></script>
 
-    <script>
-        function loadSound() {
-            var audio = new Audio('sound/sound.mp3');
-            audio.play();
-        }
-    </script>
+
 </body>
 
 </html>
