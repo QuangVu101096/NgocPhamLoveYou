@@ -1,10 +1,7 @@
 const CONFIG = {
     titleWeb: "Gửi em ... <3",
     introTitle: 'Ngọc Phạm 🥰',
-    introDesc: `Trái đất vốn lạ thường
-    Mà sao em cứ đi nhầm đường
-    Lạc vào tim anh lẻ loi
-    Đằng sau chữ yêu đây là thương`,
+    introDesc: ``,
     btnIntro: '^^HiHi^^',
     title: 'Phải chăng anh đã yêu ngay từ cái nhìn đầu tiên 🥰',
     desc: 'Phải chăng anh đã say ngay từ lúc thấy nụ cười ấy ',
