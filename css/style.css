@@ -42,6 +42,7 @@
 .swal2-title,
 .swal2-content {
     color: azure !important;
+    font-size: 1.55em !important;
 }
 
 .swal2-popup {
