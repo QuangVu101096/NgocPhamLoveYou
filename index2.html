@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="icon" type="img/png" href="img/favicon.ico">
 		<title>Anh <3 Em</title>	    
@@ -18,10 +18,7 @@
 -->
         </style>
 </head>
-    <body>
-			<audio autoplay="autopaly">
-					<source src="sound/I-Do-911.mp3" type="audio/mp3" />
-			</audio>  
+    <body> 
         <div id="main">
              <div id="wrap">
                 <div id="text">
@@ -44,7 +41,7 @@
 <span class="STYLE1"> Time of love...</span>
                   <div id="clock"></div>
               </div>
-                <canvas id="canvas" width="1100" height="680"></canvas>
+                <canvas id="canvas" width="1100" height="680" ></canvas>
             </div>
             
         </div>
@@ -104,7 +101,7 @@
         var foot = tree.footer;
         var hold = 1;
 
-        canvas.click(function(e) {
+        canvas.click(function(e) {                                                             
             var offset = canvas.offset(), x, y;
             x = e.pageX - offset.left;
             y = e.pageY - offset.top;
@@ -119,7 +116,7 @@
         }).mousemove(function(e){
             var offset = canvas.offset(), x, y;
             x = e.pageX - offset.left;
-            y = e.pageY - offset.top;
+            y = e.pageY - offset.top;                                  
             canvas.toggleClass('hand', seed.hover(x, y));
         });
 
